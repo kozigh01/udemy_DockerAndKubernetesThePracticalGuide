@@ -1,0 +1,10 @@
+GET http://localhost/story
+
+###
+
+POST http://localhost/story 
+Content-Type: application/json
+
+{
+  "text": "I'm a story!!!"
+}

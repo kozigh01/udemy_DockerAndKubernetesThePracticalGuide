@@ -17,3 +17,21 @@ Content-Type: application/json
   "email": "test@test.com",
   "password": "testers"
 }
+
+
+###
+
+GET http://10.1.0.62:8000/tasks
+Content-Type: application/json
+Authorization: Bearer abc
+
+###
+
+POST http://10.100.125.116:8000/tasks
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "title": "task 1",
+  "text": "some stuff for task 1"
+}

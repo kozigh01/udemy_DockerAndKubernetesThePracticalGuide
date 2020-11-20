@@ -18,6 +18,4 @@ spec:
           env:
             - name: AUTH_ADDRESS
               value: localhost
-        - name: auth
-          image: mkozi/kub-demo-auth:latest
 

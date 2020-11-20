@@ -1,0 +1,19 @@
+POST http://localhost:8080/login
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "password": "testers"
+}
+
+###
+
+POST http://localhost:8080/signup
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "password": "testers"
+}

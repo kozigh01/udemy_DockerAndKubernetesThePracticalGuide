@@ -20,7 +20,4 @@ spec:
             value: "auth-service.default"
           - name: TASKS_FOLDER
             value: tasks
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
+
